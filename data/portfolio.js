@@ -29,14 +29,14 @@ export const profile = {
 
 // Highlight numbers shown under the hero
 export const stats = [
-  { value: "1+", label: "Years of industry experience" },
+  { value: "3+", label: "Years at Control Union" },
   { value: "Year 4", label: "Software Engineering at SLIIT" },
   { value: "20+", label: "Technologies & tools" },
 ];
 
 export const about = {
   paragraphs: [
-    "I'm an Associate Software Engineer at Control Union Inspections and a final-year Software Engineering undergraduate at SLIIT. I joined Control Union as an intern in June 2025 and moved into a full-time role after completing my internship. Working in industry while finishing my degree has taught me to balance priorities, deliver on deadlines and write code that holds up in production.",
+    "I'm an Associate Software Engineer at Control Union Inspections and a final-year Software Engineering undergraduate at SLIIT. I joined Control Union in April 2023 as a Contracting & Planning Specialist, moved into the software team as an intern in June 2025, and became an Associate Software Engineer when my internship ended. Working in industry while finishing my degree has taught me to balance priorities, deliver on deadlines and write code that holds up in production.",
     "My day-to-day focus is frontend development in Angular: building and refining interfaces, improving UI/UX, and tracking down and fixing bugs, working closely with Spring Boot and PostgreSQL on the backend. I care about interfaces that feel simple to use and code that is easy for the next person to read and maintain.",
     "Through my work, university coursework and personal projects I've built experience across the stack, from REST APIs and database design to responsive interfaces. I work well in teams, communicate clearly, and pick up new tools quickly.",
   ],
@@ -86,9 +86,17 @@ export const experience = [
     org: "Control Union Inspections (Pvt) Ltd",
     period: "Jun 2025 – Nov 2025",
     points: [
-      "Completed a six-month internship in the software development team, working on Angular frontend features and bug fixes.",
+      "Moved internally from Contracting & Planning into the software development team, working on Angular frontend features and bug fixes.",
       "Gained hands-on experience with Spring Boot, PostgreSQL and team workflows such as code reviews and version control.",
       "Offered a full-time Associate Software Engineer role on completion of the internship.",
+    ],
+  },
+  {
+    role: "Contracting & Planning Specialist",
+    org: "Control Union Inspections (Pvt) Ltd",
+    period: "Apr 2023 – Jun 2025",
+    points: [
+      // Add 2–3 bullet points about this role (e.g. what you planned, coordinated or managed)
     ],
   },
 ];
