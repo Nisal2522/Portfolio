@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+.env*
+.vercel
+
+# Original photo and before/after edit: keep private, not on GitHub
+assets/
